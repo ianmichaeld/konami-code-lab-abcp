@@ -18,8 +18,6 @@ function init() {
     }
   }
   
-  body.addEventListener('keydown', function(e){
-    handler(e);
-  });
+  body.addEventListener('keydown', handler);
   
 }
